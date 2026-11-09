@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhitha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Nikhitha.</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Hello, I'm <span>Nikhitha</span></h1>
+        <h2>Aspiring Web Developer</h2>
+        <p>Welcome to my personal portfolio website.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am Nikhitha, a student interested in web development
+            and technology. I enjoy learning new skills and creating
+            creative projects.
+        </p>
+    </section>
+
+    <section id="skills" class="section light">
+        <h2>My Skills</h2>
+        <div class="cards">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Python</div>
+            <div class="card">Django</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Calculator</h3>
+                <p>A simple calculator web application.</p>
+                <a href="https://github.com/nnikhitha2004/Task-1---Simple-Calculator.git"
+   target="_blank"
+   class="btn">
+    View Project
+</a>
+            </div>
+
+            <div class="card">
+                <h3>Image Gallery</h3>
+                <p>An interactive and responsive image gallery.</p>
+                <a href="https://github.com/nnikhitha2004/Task1-Image-gallery.git"
+   target="_blank"
+   class="btn">
+    View Project
+</a>
+            </div>
+
+            <div class="card">
+                <h3>Restaurant Management System</h3>
+                <p>A system to manage restaurant orders and menus.</p>
+                <a href="https://github.com/nnikhitha2004/Task-2---Restaurant-Management-System.git"
+   target="_blank"
+   class="btn">
+    View Project
+</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section light">
+        <h2>My Resume</h2>
+        <p>You can view or download my resume here.</p>
+
+        <a href="./resume.pdf" target="_blank"
+           rel="noopener noreferrer" class="btn">
+            View Resume
+        </a>
+
+        <a href="./resume.pdf" download="Nikhitha_Resume.pdf"
+           class="btn">
+            Download Resume
+        </a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name"
+                   placeholder="Your Name" required>
+
+            <input type="email" id="email"
+                   placeholder="Your Email" required>
+
+            <textarea id="message"
+                      placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formStatus"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Nikhitha. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
